@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Project with Bootsrap 4</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+   <!--  Font Awesome 4.7 -->
+   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- ########## Bootsrap CDN Loaded ################ -->    
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<!-- 	Light Box CSS -->
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<!-- Swifer css for sliding -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+
+
+
+<!--  ########Custom Css FIle loaded######## -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="header-section">
+		<div class="main-menu">
+			<!-- Main Menu primary menu -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-info">
+				<div class="container">
+				  <a class="navbar-brand text-white" href="#">Brand</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-white" href="#">Features</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-white" href="#">Pricing</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link text-white" href="#">Primary</a>
+				      </li>
+				    </ul>
+				  </div>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="slider-sec">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/pic.jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/photo(4).jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/photo(3).jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/pic.jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/photo(4).jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+
+		      <div class="swiper-slide">
+		      	<div class="imgbx">
+		      		<img class="img-fluid" src="images/photo(3).jpg" alt="">
+		      	</div>
+		      	<div class="cards text-center">
+		      		<h2>John Doe</h2>
+		      		<strong>Developer</strong>
+		      	</div>
+		      </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		  </div>
+		
+
+	</div>
+
+
+
+
+
+
+
+	<div class="section-footer bg-info p-3 mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 d-block">									
+					<strong class="text-white float-left pt-2">
+						All right reserved by Sagor Ahmed @2019
+					</strong>
+					<ul class="nav d-inline-flex float-right">
+						<li class="nav-item"><a href="#" class="text-white nav-link">Home</a></li>
+						<li class="nav-item"><a href="#" class="text-white nav-link">About</a></li>
+						<li class="nav-item"><a href="#" class="text-white nav-link">Blog</a></li>
+						<li class="nav-item"><a href="#" class="text-white nav-link">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	      effect: 'coverflow',
+	      grabCursor: true,
+	      centeredSlides: true,
+	      slidesPerView: 'auto',
+	      coverflowEffect: {
+	        rotate: 60,
+	        stretch: 0,
+	        depth: 300,
+	        modifier: 2,
+	        slideShadows : true,
+	      },
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+	    });
+	  </script>
+	<script type="text/javascript" src="js/custom.js"></script>	
+</body>
+</html>
